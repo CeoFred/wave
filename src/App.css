@@ -1,0 +1,85 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* margin-top: 64px; */
+    height: 100vh;
+    background: #193950;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveButton {
+ cursor: pointer;
+    margin-top: 16px;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+    width: 32%;
+    height: 62px;
+    background-color: #f15c5c;
+}
+  
+
+textarea {
+      height: 100px;
+    border-radius: 6px;
+    border: 0px;
+    padding: 30px;
+    font-size: xx-large;
+}
+
+strong {
+      margin: 30px 0px;
+    font-size: x-large;
+    color: sandybrown;
+}
+
+div.waves_container {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.wave {
+      background-color: oldlace;
+    margin-top: 16px;
+    padding: 8px;
+    border-radius: 9px;
+    margin: 30px 12px 17px 0px;
+}
+
+.wave_message {
+     text-transform: capitalize;
+    font-size: small;
+}
+
+.wave_author {
+      text-decoration: underline;
+    font-size: revert;
+    font-weight: 600;
+}
+.username_input {
+      margin: 5px 0px;
+    height: 49px;
+    border: 0px;
+    border-radius: 4px;
+    padding: 0px 30px;
+    font-size: smaller;
+}
